@@ -2,7 +2,9 @@
 *
 !*/
 
-!.gitignore
-!mods.txt
-!config/**
 !_scripts/*
+!config/**
+
+!.gitignore
+!LICENSE
+!mods.txt
