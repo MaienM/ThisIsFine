@@ -1,0 +1,6 @@
+# Ignore everything by default, to make status less messy when working directly from a checkout.
+*
+!*/
+
+!.gitignore
+!config/*
