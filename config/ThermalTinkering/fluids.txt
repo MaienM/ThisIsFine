@@ -49,11 +49,6 @@ canolaoil                                         (actuallyadditions:block_canol
 refinedcanolaoil                                  (actuallyadditions:block_refined_canola_oil)                                     = Refined Canola Oil
 crystaloil                                        (actuallyadditions:block_crystal_oil)                                            = Crystallized Oil
 empoweredoil                                      (actuallyadditions:block_empowered_oil)                                          = Empowered Oil
-sand                                              (biomesoplenty:sand)                                                             = Quicksand
-honey                                             (biomesoplenty:honey)                                                            = Honey
-blood                                             (biomesoplenty:blood)                                                            = Blood
-poison                                            (biomesoplenty:poison)                                                           = Poison
-hot_spring_water                                  (biomesoplenty:hot_spring_water)                                                 = Hot Spring Water
 fierymetal                                        (twilightforest:molten_fierymetal)                                               = Molten Fiery
 knightmetal                                       (twilightforest:molten_knightmetal)                                              = Molten Knightmetal
 fiery_essence                                     (twilightforest:fiery_essence)                                                   = Fiery Essence
@@ -133,6 +128,7 @@ wildberryjuice                                    (rustic:wildberry_juice)      
 grapejuice                                        (rustic:grape_juice)                                                             = Grape Juice
 applejuice                                        (rustic:apple_juice)                                                             = Apple Juice
 alewort                                           (rustic:ale_wort)                                                                = Ale Wort
+honey                                             (rustic:honey)                                                                   = Honey
 ale                                               ([no block])                                                                     = Ale
 cider                                             ([no block])                                                                     = Cider
 ironwine                                          ([no block])                                                                     = Iron Wine
@@ -219,6 +215,7 @@ clay                                              (tconstruct:molten_clay)      
 dirt                                              (tconstruct:molten_dirt)                                                         = Liquid Dirt
 emerald                                           (tconstruct:molten_emerald)                                                      = Molten Emerald
 glass                                             (tconstruct:molten_glass)                                                        = Molten Glass
+blood                                             (tconstruct:blood)                                                               = Blood
 blueslime                                         (tconstruct:blueslime)                                                           = Liquid Blue Slime
 purpleslime                                       (tconstruct:purpleslime)                                                         = Liquid Purple Slime
 astralsorcery.liquidstarlight                     (astralsorcery:fluidblockliquidstarlight)                                        = Liquid Starlight

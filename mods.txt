@@ -23,7 +23,6 @@ mods/BetterWithLib-1.12-1.5.jar
 mods/BetterWithMods-1.12-2.3.22.jar
 mods/bewitchment-1.12.2-0.0.21.12.jar
 mods/BiblioCraft[v2.4.5][MC1.12.2].jar
-mods/BiomesOPlenty-1.12.2-7.0.1.2441-universal.jar
 mods/Bloodmoon-MC1.12.2-1.5.3.jar
 mods/bonsaitrees-1.1.4-b170.jar
 mods/Bookshelf-1.12.2-2.3.590.jar
@@ -53,7 +52,7 @@ mods/deepmoblearning-1.12.2-2.5.2-universal.jar
 mods/demagnetize-1.12.2-1.1.1.jar
 mods/DynamicLights-1.12.2.jar
 mods/DynamicTrees-1.12.2-0.9.8.jar
-mods/DynamicTreesBOP-1.12.2-1.4.1e.jar
+mods/dynamictreesNatura-1.12.2-1.0.jar
 mods/DynamicTreesPHC-1.12.2-1.4.2.jar
 mods/dynamicTreesRoots-0.2.1.jar
 mods/DynamicTreesTC-1.12.2-1.4.1e.jar
@@ -120,6 +119,7 @@ mods/MTLib-3.0.6.jar
 mods/MysticalAgriculture-1.12.2-1.7.5.jar
 mods/mysticallib-1.12.2-1.7.0.jar
 mods/mysticalworld-1.12.2-1.8.4.jar
+mods/natura-1.12.2-4.3.2.69.jar
 mods/NaturesCompass-1.12.2-1.8.5.jar
 mods/NetherPortalFix_1.12.1-5.3.17.jar
 mods/NoMoreRecipeConflict-0.13(1.12.2).jar
