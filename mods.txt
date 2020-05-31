@@ -12,7 +12,6 @@ mods/appliedenergistics2-rv6-stable-7.jar
 mods/architecturecraft-1.12-3.98.jar
 mods/Aroma1997Core-1.12.2-2.0.0.2.jar
 mods/Aroma1997s-Dimensional-World-1.12.2-2.0.0.2.jar
-mods/AromaBackup-1.12.2-2.1.1.4.jar
 mods/astralsorcery-1.12.2-1.10.23.jar
 mods/AutoRegLib-1.3-32.jar
 mods/badwithernocookiereloaded-1.12.2-3.3.16.jar
@@ -29,10 +28,10 @@ mods/Bookshelf-1.12.2-2.3.590.jar
 mods/Botania r1.10-363.jar
 mods/BuildingGadgets-2.8.3.jar
 mods/Ceramics-1.12-1.3.7.jar
-mods/Chameleon-1.12-4.1.3.jar
 mods/ChickenChunks-1.12.2-2.4.2.74-universal.jar
 mods/Chisel-MC1.12.2-1.0.2.45.jar
 mods/chiselsandbits-14.33.jar
+mods/Chunk+Pregenerator+V1.12-2.2.jar
 mods/CodeChickenLib-1.12.2-3.2.3.358-universal.jar
 mods/CoFHCore-1.12.2-4.6.6.1-universal.jar
 mods/CoFHWorld-1.12.2-1.4.0.1-universal.jar
@@ -174,6 +173,7 @@ mods/Vampirism-1.12.2-1.6.2.jar
 mods/VampirismIntegrations-1.12.2-1.3.0.jar
 mods/WailaHarvestability-mc1.12-1.1.12.jar
 mods/WanionLib-1.12.2-2.4.jar
+mods/Wasaila-1.0.jar
 mods/Waystones_1.12.2-4.1.0.jar
 mods/WirelessCraftingTerminal-1.12.2-3.12.97.jar
 mods/xnet-1.12-1.8.2.jar
