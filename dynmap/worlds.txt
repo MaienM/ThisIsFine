@@ -1,0 +1,4 @@
+worlds:
+  - name: World
+    title: Overworld
+    enabled: true
