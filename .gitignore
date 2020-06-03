@@ -8,3 +8,5 @@
 !.gitignore
 !*.md
 !mods.txt
+
+config/ThermalTinkering/*.txt
