@@ -44,6 +44,18 @@
         "ignoreMeta": false,
         "ignoreTags": [],
         "useOreDict": false
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 0.05,
+        "required": true,
+        "item": "mysticalagriculture:fertilized_essence",
+        "meta": 0,
+        "tags": "",
+        "ignoreMeta": false,
+        "ignoreTags": [],
+        "useOreDict": false
       }
     ]
   },

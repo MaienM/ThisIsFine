@@ -19,7 +19,7 @@ mods/Baubles-1.12-1.5.2.jar
 mods/bdlib-1.14.3.12-mc1.12.2.jar
 mods/BetterWithEngineering-1.6.jar
 mods/BetterWithLib-1.12-1.5.jar
-mods/BetterWithMods-1.12-2.3.22.jar
+mods/BetterWithMods-1.12-2.3.23.jar
 mods/bewitchment-1.12.2-0.0.21.12.jar
 mods/BiblioCraft[v2.4.5][MC1.12.2].jar
 mods/Bloodmoon-MC1.12.2-1.5.3.jar
@@ -51,10 +51,14 @@ mods/deepmoblearning-1.12.2-2.5.2-universal.jar
 mods/demagnetize-1.12.2-1.1.1.jar
 mods/DynamicLights-1.12.2.jar
 mods/DynamicTrees-1.12.2-0.9.8.jar
+mods/dynamictreesExtraUtils2-1.12.2-1.0.1.jar
+mods/dynamictreesIntegratedDynamics-1.12.2-1.0.jar
 mods/dynamictreesNatura-1.12.2-1.0.jar
 mods/DynamicTreesPHC-1.12.2-1.4.2.jar
+mods/dynamictreesQuark-1.12.2-1.0.1.jar
 mods/dynamicTreesRoots-0.2.1.jar
 mods/DynamicTreesTC-1.12.2-1.4.1e.jar
+mods/dynamictreesTConstruct-1.12.2-1.1.2.jar
 mods/ElectroblobsWizardry-4.2.11-MC1.12.2.jar
 mods/enchantingwiththaumcraft-1.2.jar
 mods/EnderCore-1.12.2-0.5.73.jar
@@ -76,7 +80,7 @@ mods/FTBBackups-1.1.0.1.jar
 mods/FTBLib-5.4.7.0.jar
 mods/FTBQuests-1.8.1.239.jar
 mods/FTBUtilities-5.4.0.124.jar
-mods/GottschCore-mc1.12.2-f14.23.5.2768-v1.13.0.jar
+mods/GottschCore-mc1.12.2-f14.23.5.2768-v1.13.1.jar
 mods/Guide-API-1.12-2.1.8-63.jar
 mods/HammerLib-1.12.2-2.0.6.17.jar
 mods/Hwyla-1.8.26-B41_1.12.2.jar
