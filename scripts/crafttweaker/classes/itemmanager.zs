@@ -40,6 +40,18 @@ zenClass ItemManager {
 
 
   /*
+    Modify existing recipes by replacing existing ingredients
+  */
+  function replaceIngredients(modifiers as IIngredient[IIngredient][IItemStack]) {
+    for item, recipeModifiers in modifiers {
+      for original, replacement in recipeModifiers {
+        recipes.replaceAllOccurences(original, replacement, item);
+      }
+    }
+  }
+
+
+  /*
     Removes all items in the removals list
     Items are NOT hidden in JEI
   */
