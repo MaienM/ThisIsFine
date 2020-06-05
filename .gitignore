@@ -4,6 +4,7 @@
 
 !_scripts/*
 !config/**
+!scripts/**
 
 !.gitignore
 !*.md
