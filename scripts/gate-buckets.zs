@@ -5,20 +5,8 @@
 
 import crafttweaker.item.IIngredient;
 
-static iron_plate as IIngredient = <thermalfoundation:material:32>;
-
 // Regular iron buckets.
-recipes.remove(<minecraft:bucket>);
-recipes.addShaped(<minecraft:bucket>, [
-   [null, null, null],
-   [iron_plate, null, iron_plate],
-   [null, iron_plate, null],
-]);
+recipes.replaceAllOccurences(<ore:ingotIron>, <thermalfoundation:material:32>, <minecraft:bucket>);
 
 // Ender bucket from randomthings.
-recipes.remove(<randomthings:enderbucket>);
-recipes.addShaped(<randomthings:enderbucket>, [
-   [null, null, null],
-   [iron_plate, null, iron_plate],
-   [null, <minecraft:ender_pearl>, null],
-]);
+recipes.replaceAllOccurences(<ore:ingotIron>, <thermalfoundation:material:32>, <randomthings:enderbucket>);
