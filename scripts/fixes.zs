@@ -21,3 +21,7 @@ furnace.addRecipe(<thermalfoundation:material:134>, <levelup2:surfaceore:13>, 0.
 furnace.addRecipe(<thermalfoundation:material:135>, <levelup2:surfaceore:14>, 0.1);
 furnace.addRecipe(<thermalfoundation:material:136>, <levelup2:surfaceore:15>, 0.1);
 furnace.addRecipe(<tconstruct:ingots:1>, <levelup2:netherore:2>, 0.1);
+
+// Normally spectre saplings are created by right-clicking a regular sapling with ectoplasm. This isn't possible in this
+// pack because all planted trees are converted to dynamic trees automatically, so allow crafting the sapling instead.
+recipes.addShapeless(<randomthings:spectresapling>, [<ore:treeSapling>, <randomthings:ingredient:2>]);
