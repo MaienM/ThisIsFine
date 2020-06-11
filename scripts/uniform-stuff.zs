@@ -3,23 +3,35 @@
  * For all of these we try to pick once version that we will keep, and we disable the rest.
  */
 
+#priority 100
+
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.betterwithmods.Saw;
 import mods.jei.JEI;
+import scripts.utils.hash;
 
-/*
+/**
  * Completely replace an item with another item.
  *
  * This means no longer being able to craft the replaced item, nor being able to find it in JEI.
  * A shapeless recipe will be added to convert the replaced item with the replacement item, in case people already have
- * the replaced item, or are still somehow able to acquire it.
+ * the replaced item, or are still somehow able to acquire it. This will be a hidden recipe to avoid adding noise.
  * All recipes using the replaced item will use the replacement item.
  */
 function removeInFavorOf(replaced as IItemStack, replacement as IItemStack) {
    JEI.removeAndHide(replaced);
-   recipes.addShapeless(replacement, [replaced]);
+   JEI.addDescription(replaced, [
+      "This version of this item has been disabled in favor of another, and you shouldn't have been able to acquire it.",
+      "Please report how you got this so we can fix this.",
+      "You can put it in a crafting table to convert it to its intended replacement.",
+   ]);
+   recipes.addHiddenShapeless(
+      "convert_removed_item_ " ~ hash(replaced.commandString) ~ "_" ~ hash(replacement.commandString),
+      replacement,
+      [replaced]
+   );
    recipes.replaceAllOccurences(replaced, replacement);
 }
 
