@@ -24,3 +24,20 @@ recipes.addShaped(<tcomplement:porcelain_melter>, [
    [<ceramics:unfired_clay:5>, <minecraft:glass>, <ceramics:unfired_clay:5>],
    [<ceramics:unfired_clay:5>, <ceramics:unfired_clay:5>, <ceramics:unfired_clay:5>],
 ]);
+
+// All elements are crafted using the bricks except for the tap and channel, which you first mold and then bake?
+// Change that to also just be crafted from the bricks, like everything else.
+JEI.removeAndHide(<ceramics:unfired_clay:6>);
+furnace.remove(<ceramics:faucet>);
+recipes.addShaped(<ceramics:faucet>, [
+   [null, null, null],
+   [<ceramics:unfired_clay:5>, null, <ceramics:unfired_clay:5>],
+   [null, <ceramics:unfired_clay:5>, null],
+]);
+JEI.removeAndHide(<ceramics:unfired_clay:7>);
+furnace.remove(<ceramics:channel>);
+recipes.addShaped(<ceramics:channel>  *3, [
+   [null, null, null],
+   [<ceramics:unfired_clay:5>, null, <ceramics:unfired_clay:5>],
+   [<ceramics:unfired_clay:5>, <ceramics:unfired_clay:5>, <ceramics:unfired_clay:5>],
+]);
