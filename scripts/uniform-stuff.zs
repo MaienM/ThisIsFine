@@ -39,3 +39,12 @@ Saw.add(<betterwithmods:corner_wood>, [<thermalfoundation:material:22> * 2]);
 // Stone gears.
 removeInFavorOf(<enderio:item_material:10>, <thermalfoundation:material:23>);
 recipes.replaceAllOccurences(<thermalfoundation:material:23>, <ore:gearStone>);
+
+// IE adds some posts, Immersive Posts add better versions, so replace these.
+// Make the transform recipes also return the two fences that were used, as the base post doesn't include these.
+JEI.removeAndHide(<immersiveengineering:wooden_device1:3>);
+recipes.addShapeless(<immersiveposts:postbase>, [<immersiveengineering:wooden_device1:3>.giveBack(<immersiveengineering:wooden_decoration:0> * 2)]);
+JEI.removeAndHide(<immersiveengineering:metal_decoration2:0>);
+recipes.addShapeless(<immersiveposts:postbase>, [<immersiveengineering:metal_decoration2:0>.giveBack(<immersiveengineering:metal_decoration1:0> * 2)]);
+JEI.removeAndHide(<immersiveengineering:metal_decoration2:2>);
+recipes.addShapeless(<immersiveposts:postbase>, [<immersiveengineering:metal_decoration2:2>.giveBack(<immersiveengineering:metal_decoration1:4> * 2)]);
