@@ -4,3 +4,6 @@ recipes.replaceAllOccurences(<minecraft:iron_ingot>, <betterwithmods:rope>, <imm
 // Smelt sand to glass shards instead of full blocks, to motivate moving to a crucible as quickly as possible.
 furnace.remove(<minecraft:glass>);
 furnace.addRecipe(<quark:glass_shards>, <minecraft:sand>);
+
+// Use bronze instead of gold in latches.
+recipes.replaceAllOccurences(<ore:nuggetGold>, <ore:nuggetBronze>, <betterwithmods:material:34>);
