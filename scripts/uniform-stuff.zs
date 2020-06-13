@@ -82,7 +82,7 @@ mergeGroup(<ore:gearWood>, [
 	<betterwithmods:material:0>,
 	<enderio:item_material:9>,
 ]);
-Saw.remove(<betterwithmods:material:0>);
+Saw.remove([<betterwithmods:material:0>]);
 Saw.add(<betterwithmods:corner_wood>, [<thermalfoundation:material:22> * 2]);
 
 mergeGroup(<ore:gearStone>, [
