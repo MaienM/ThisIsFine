@@ -56,6 +56,13 @@ removeInFavorOf(<betterwithmods:axle_generator:1>, <immersiveengineering:wooden_
 removeInFavorOf(<betterwithmods:axle_generator:2>, <immersiveengineering:wooden_device1:1>);
 removeInFavorOf(<betterwithmods:material:11>, <immersiveengineering:material:12>);
 
+// Sawdust.
+mergeGroup(<ore:dustWood>, [
+   <thermalfoundation:material:800>,
+   <immersiveintelligence:material:22>,
+   <betterwithmods:material:22>,
+]);
+
 // IE adds some posts, Immersive Posts add better versions, so replace these.
 // Make the transform recipes also return the two fences that were used, as the base post doesn't include these.
 JEI.removeAndHide(<immersiveengineering:wooden_device1:3>);
