@@ -21,18 +21,18 @@ import scripts.utils.hash;
  * All recipes using the replaced item will use the replacement item.
  */
 function removeInFavorOf(replaced as IItemStack, replacement as IItemStack) {
-   JEI.removeAndHide(replaced);
-   JEI.addDescription(replaced, [
-      "This version of this item has been disabled in favor of another, and you shouldn't have been able to acquire it.",
-      "Please report how you got this so we can fix this.",
-      "You can put it in a crafting table to convert it to its intended replacement.",
-   ]);
-   recipes.addHiddenShapeless(
-      "convert_removed_item_ " ~ hash(replaced.commandString) ~ "_" ~ hash(replacement.commandString),
-      replacement,
-      [replaced]
-   );
-   recipes.replaceAllOccurences(replaced, replacement);
+	JEI.removeAndHide(replaced);
+	JEI.addDescription(replaced, [
+		"This version of this item has been disabled in favor of another, and you shouldn't have been able to acquire it.",
+		"Please report how you got this so we can fix this.",
+		"You can put it in a crafting table to convert it to its intended replacement.",
+	]);
+	recipes.addHiddenShapeless(
+		"convert_removed_item_ " ~ hash(replaced.commandString) ~ "_" ~ hash(replacement.commandString),
+		replacement,
+		[replaced]
+	);
+	recipes.replaceAllOccurences(replaced, replacement);
 }
 
 /**
@@ -42,12 +42,12 @@ function removeInFavorOf(replaced as IItemStack, replacement as IItemStack) {
  * Will adjust all reciped to use the oredict entry rather than any specific version.
  */
 function mergeGroup(oredict as IOreDictEntry, members as IItemStack[]) {
-   for i, member in members {
-      if (i > 0) {
-         removeInFavorOf(member, members[0]);
-      }
-      recipes.replaceAllOccurences(member, oredict);
-   }
+	for i, member in members {
+		if (i > 0) {
+			removeInFavorOf(member, members[0]);
+		}
+		recipes.replaceAllOccurences(member, oredict);
+	}
 }
 
 // BetterWithMods adds a waterwheel and a windmill, but we already have these from Immersive Engineering, so disable them.
@@ -58,9 +58,9 @@ removeInFavorOf(<betterwithmods:material:11>, <immersiveengineering:material:12>
 
 // Sawdust.
 mergeGroup(<ore:dustWood>, [
-   <thermalfoundation:material:800>,
-   <immersiveintelligence:material:22>,
-   <betterwithmods:material:22>,
+	<thermalfoundation:material:800>,
+	<immersiveintelligence:material:22>,
+	<betterwithmods:material:22>,
 ]);
 
 // IE adds some posts, Immersive Posts add better versions, so replace these.
@@ -77,17 +77,17 @@ recipes.addShapeless(<immersiveposts:postbase>, [<immersiveengineering:metal_dec
  */
 
 mergeGroup(<ore:gearWood>, [
-   <thermalfoundation:material:22>,
-   <appliedenergistics2:material:40>,
-   <betterwithmods:material:0>,
-   <enderio:item_material:9>,
+	<thermalfoundation:material:22>,
+	<appliedenergistics2:material:40>,
+	<betterwithmods:material:0>,
+	<enderio:item_material:9>,
 ]);
 Saw.remove(<betterwithmods:material:0>);
 Saw.add(<betterwithmods:corner_wood>, [<thermalfoundation:material:22> * 2]);
 
 mergeGroup(<ore:gearStone>, [
-   <thermalfoundation:material:23>,
-   <enderio:item_material:10>,
+	<thermalfoundation:material:23>,
+	<enderio:item_material:10>,
 ]);
 
 /*
@@ -145,5 +145,5 @@ mergeGroup(<ore:plateConstantan>, [
 ]);
 mergeGroup(<ore:plateBrass>, [
 	<thaumcraft:plate:0>,
-   <immersiveintelligence:material_plate:1>,
+	<immersiveintelligence:material_plate:1>,
 ]);

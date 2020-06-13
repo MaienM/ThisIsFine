@@ -12,26 +12,26 @@ recipes.replaceAllOccurences(<ore:nuggetGold>, <ore:nuggetBronze>, <betterwithmo
 
 // Allow converting between regular sapling and betterwithmods saplings without a bucket of dirt.
 for recipe in recipes.getRecipesFor(<ore:treeSapling>) {
-   if (recipe.ingredients1D.length == 2) {
-      var hasBucket as bool = false;
-      var itemSapling as IIngredient = null;
-      for ingredient in recipe.ingredients1D {
-         if (ingredient.matches(<dynamictrees:dirtbucket>)) {
-            hasBucket = true;
-         } else {
-            for ingredientItem in ingredient.items {
-               if (<ore:treeSapling> has ingredientItem) {
-                  itemSapling = ingredient;
-                  break;
-               }
-            }
-            if (isNull(itemSapling)) {
-            }
-         }
-      }
-      if (hasBucket && !isNull(itemSapling)) {
-         recipes.removeByRecipeName(recipe.fullResourceDomain);
-         recipes.addShapeless(recipe.output, [itemSapling]);
-      }
-   }
+	if (recipe.ingredients1D.length == 2) {
+		var hasBucket as bool = false;
+		var itemSapling as IIngredient = null;
+		for ingredient in recipe.ingredients1D {
+			if (ingredient.matches(<dynamictrees:dirtbucket>)) {
+				hasBucket = true;
+			} else {
+				for ingredientItem in ingredient.items {
+					if (<ore:treeSapling> has ingredientItem) {
+						itemSapling = ingredient;
+						break;
+					}
+				}
+				if (isNull(itemSapling)) {
+				}
+			}
+		}
+		if (hasBucket && !isNull(itemSapling)) {
+			recipes.removeByRecipeName(recipe.fullResourceDomain);
+			recipes.addShapeless(recipe.output, [itemSapling]);
+		}
+	}
 }

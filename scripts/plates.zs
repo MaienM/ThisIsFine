@@ -8,13 +8,13 @@ import mods.immersiveengineering.MetalPress;
 import mods.tconstruct.Casting;
 
 function setupPlate(plate as IItemStack, ingot as IItemStack, fluid as ILiquidStack) {
-   recipes.remove(plate);
-   Casting.removeTableRecipe(plate);
-   if (!isNull(fluid)) {
-      Casting.addTableRecipe(plate, <tconstruct:cast_custom:3>, fluid, 288);
-   }
-   MetalPress.removeRecipe(plate);
-   MetalPress.addRecipe(plate, ingot, <immersiveengineering:mold>, 2400, 1);
+	recipes.remove(plate);
+	Casting.removeTableRecipe(plate);
+	if (!isNull(fluid)) {
+		Casting.addTableRecipe(plate, <tconstruct:cast_custom:3>, fluid, 288);
+	}
+	MetalPress.removeRecipe(plate);
+	MetalPress.addRecipe(plate, ingot, <immersiveengineering:mold>, 2400, 1);
 }
 
 setupPlate(<thermalfoundation:material:32>, <minecraft:iron_ingot:0>, <liquid:iron>);
