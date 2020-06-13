@@ -25,8 +25,6 @@ for recipe in recipes.getRecipesFor(<ore:treeSapling>) {
 						break;
 					}
 				}
-				if (isNull(itemSapling)) {
-				}
 			}
 		}
 		if (hasBucket && !isNull(itemSapling)) {
