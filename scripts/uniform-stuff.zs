@@ -10,6 +10,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.betterwithmods.Saw;
 import mods.jei.JEI;
+import mods.roots.Mortar;
 import scripts.utils.hash;
 
 /**
@@ -71,6 +72,33 @@ JEI.removeAndHide(<immersiveengineering:metal_decoration2:0>);
 recipes.addShapeless(<immersiveposts:postbase>, [<immersiveengineering:metal_decoration2:0>.giveBack(<immersiveengineering:metal_decoration1:0> * 2)]);
 JEI.removeAndHide(<immersiveengineering:metal_decoration2:2>);
 recipes.addShapeless(<immersiveposts:postbase>, [<immersiveengineering:metal_decoration2:2>.giveBack(<immersiveengineering:metal_decoration1:4> * 2)]);
+
+// Ingots and tools are already mostly unified, but mystical world still shows some of its stuff while it shouldn't.
+removeInFavorOf(<mysticalworld:copper_dust:0>, <thermalfoundation:material:64>);
+removeInFavorOf(<mysticalworld:copper_ingot:0>, <thermalfoundation:material:128>);
+removeInFavorOf(<mysticalworld:copper_nugget:0>, <thermalfoundation:material:192>);
+removeInFavorOf(<mysticalworld:copper_block:0>, <thermalfoundation:storage:0>);
+JEI.removeAndHide(<mysticalworld:copper_dust_tiny:0>);
+removeInFavorOf(<mysticalworld:silver_dust:0>, <thermalfoundation:material:66>);
+removeInFavorOf(<mysticalworld:silver_ingot:0>, <thermalfoundation:material:130>);
+removeInFavorOf(<mysticalworld:silver_nugget:0>, <thermalfoundation:material:194>);
+removeInFavorOf(<mysticalworld:silver_block:0>, <thermalfoundation:storage:2>);
+JEI.removeAndHide(<mysticalworld:silver_dust_tiny:0>);
+removeInFavorOf(<mysticalworld:gold_dust:0>, <thermalfoundation:material:1>);
+JEI.removeAndHide(<mysticalworld:gold_dust_tiny:0>);
+removeInFavorOf(<mysticalworld:iron_dust:0>, <thermalfoundation:material:0>);
+JEI.removeAndHide(<mysticalworld:iron_dust_tiny:0>);
+// Some dusts can be gotten from the roots mortal & pestle, change that to give the pulverized dusts instead.
+Mortar.removeRecipe(<mysticalworld:gold_dust:0>);
+Mortar.addRecipe(<thermalfoundation:material:1>, [<minecraft:gold_ingot>]);
+Mortar.removeRecipe(<mysticalworld:iron_dust:0>);
+Mortar.addRecipe(<thermalfoundation:material:0>, [<minecraft:iron_ingot>]);
+// Allow crafting tiny piles of dust into a larger pile of dust.
+recipes.addShaped(<thermalfoundation:material:0>, [
+	[<rustic:dust_tiny_iron:0>, <rustic:dust_tiny_iron:0>, <rustic:dust_tiny_iron:0>],
+	[<rustic:dust_tiny_iron:0>, <rustic:dust_tiny_iron:0>, <rustic:dust_tiny_iron:0>],
+	[<rustic:dust_tiny_iron:0>, <rustic:dust_tiny_iron:0>, <rustic:dust_tiny_iron:0>],
+]);
 
 /*
  * Gears.
