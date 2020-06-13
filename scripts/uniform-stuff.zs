@@ -76,7 +76,6 @@ recipes.addShapeless(<immersiveposts:postbase>, [<immersiveengineering:metal_dec
  * Gears.
  */
 
-// Wooden gears. These are the worst, so many mods add them. They can also be crafted by sawing a corner block.
 mergeGroup(<ore:gearWood>, [
    <thermalfoundation:material:22>,
    <appliedenergistics2:material:40>,
