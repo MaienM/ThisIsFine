@@ -33,3 +33,7 @@ for recipe in recipes.getRecipesFor(<ore:treeSapling>) {
 		}
 	}
 }
+
+// Use any glass for Cooking with Blockheads furnace
+recipes.replaceAllOccurences(<minecraft:stained_glass:15>, <ore:blockGlass>, <cookingforblockheads:oven>);
+
