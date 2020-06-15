@@ -10,7 +10,6 @@ import mods.jei.JEI;
 recipes.replaceAllOccurences(<ore:blockSeared>, <ore:blockSteel>, <tconstruct:toolforge>);
 recipes.replaceAllOccurences(<ore:blockSeared>, <ore:blockSteel>, <conarm:armorforge>);
 
-
 /*
  * Disable TC Hammer, Excavator & Broad Axe
  *
@@ -39,24 +38,24 @@ JEI.hide(<tconstruct:clay_cast>.withTag({PartType: "tconstruct:broad_axe_head"})
 // Disable tool head casting & hide in JEI
 Casting.removeTableRecipe(<tconstruct:hammer_head>);
 for item in <tconstruct:hammer_head>.definition.subItems {
-  JEI.hide(item);
+	JEI.hide(item);
 }
 for item in <tconstruct:hammer>.definition.subItems {
-  JEI.hide(item);
+	JEI.hide(item);
 }
 
 Casting.removeTableRecipe(<tconstruct:excavator_head>);
 for item in <tconstruct:excavator_head>.definition.subItems {
-  JEI.hide(item);
+	JEI.hide(item);
 }
 for item in <tconstruct:excavator>.definition.subItems {
-  JEI.hide(item);
+	JEI.hide(item);
 }
 
 Casting.removeTableRecipe(<tconstruct:broad_axe_head>);
 for item in <tconstruct:broad_axe_head>.definition.subItems {
-  JEI.hide(item);
+	JEI.hide(item);
 }
 for item in <tconstruct:lumberaxe>.definition.subItems {
-  JEI.hide(item);
+	JEI.hide(item);
 }
