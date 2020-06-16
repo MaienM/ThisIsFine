@@ -1,4 +1,10 @@
+import crafttweaker.event.BlockFarmlandTrampleEvent;
 import crafttweaker.item.IIngredient;
+
+// Prevent trampling farmland.
+events.onFarmlandTrample(function(event as BlockFarmlandTrampleEvent) {
+	event.cancel();
+});
 
 // Change the windmill to use a rope instead of an iron ingot, making it available a bit earlier.
 recipes.replaceAllOccurences(<minecraft:iron_ingot>, <betterwithmods:rope>, <immersiveengineering:wooden_device1:1>);
