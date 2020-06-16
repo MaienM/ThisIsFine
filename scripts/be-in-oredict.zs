@@ -75,3 +75,7 @@
 	<twilightforest:trans_trapdoor>,
 	<twilightforest:twilight_oak_trapdoor>,
 ]);
+
+<ore:listAllfruit>.addItems([
+	<forbidden_arcanus:cherry_peach>,
+]);
