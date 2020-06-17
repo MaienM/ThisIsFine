@@ -14,6 +14,16 @@
         "*"
       ],
       "useOreDict": false
+    },
+    {
+      "item": "harvestcraft:teaitem",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": false,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": false
     }
   ],
   "description": {

@@ -14,6 +14,16 @@
         "*"
       ],
       "useOreDict": false
+    },
+    {
+      "item": "harvestcraft:kohlrabiitem",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": false,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": false
     }
   ],
   "description": {
