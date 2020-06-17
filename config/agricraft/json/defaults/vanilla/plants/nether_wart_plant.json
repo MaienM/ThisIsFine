@@ -61,7 +61,8 @@
     "min_light": 0,
     "max_light": 8,
     "soils": [
-      "soul_sand_soil"
+      "soul_sand_soil",
+      "soul_sand_planter_soil"
     ],
     "conditions": []
   },
