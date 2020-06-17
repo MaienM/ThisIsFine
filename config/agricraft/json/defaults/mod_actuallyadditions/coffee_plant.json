@@ -1,6 +1,6 @@
 {
   "path": "mod_actuallyadditions/coffee_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "actuallyadditions:coffee_plant",
   "plant_name": "Coffee",
   "seed_name": "Coffee Seeds",

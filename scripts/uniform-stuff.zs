@@ -100,6 +100,28 @@ recipes.addShaped(<thermalfoundation:material:0>, [
 	[<rustic:dust_tiny_iron:0>, <rustic:dust_tiny_iron:0>, <rustic:dust_tiny_iron:0>],
 ]);
 
+// Duplicate crops/results.
+removeInFavorOf(<randomthings:beans>, <harvestcraft:beanitem>);
+removeInFavorOf(<aoa3:chilli_seeds>, <harvestcraft:chilipepperseeditem>);
+removeInFavorOf(<rustic:chili_pepper_seeds>, <harvestcraft:chilipepperseeditem>);
+removeInFavorOf(<aoa3:chilli>, <harvestcraft:chilipepperitem>);
+removeInFavorOf(<rustic:chili_pepper>, <harvestcraft:chilipepperitem>);
+removeInFavorOf(<actuallyadditions:item_coffee_seed>, <harvestcraft:coffeeseeditem>);
+removeInFavorOf(<actuallyadditions:item_coffee_beans>, <harvestcraft:coffeebeanitem>);
+removeInFavorOf(<aoa3:tea_seeds>, <harvestcraft:teaseeditem>);
+removeInFavorOf(<aoa3:tea_shreddings>, <harvestcraft:teaitem>);
+// AoA's tea sink doesn't use oredict, so just replace the recipes with recipes with a pot.
+JEI.removeAndHide(<aoa3:tea_sink>);
+removeInFavorOf(<aoa3:tea>, <harvestcraft:earlgreyteaitem>);
+recipes.addShapeless(
+	<aoa3:natural_tea>,
+	[<harvestcraft:potitem>.giveBack(), <aoa3:cup>, <harvestcraft:tealeafitem>, <aoa3:nature_melon_slice>]
+);
+recipes.addShapeless(
+	<aoa3:fungal_tea>,
+	[<harvestcraft:potitem>.giveBack(), <aoa3:cup>, <harvestcraft:tealeafitem>, <aoa3:mystic_shrooms>]
+);
+
 /*
  * Gears.
  */

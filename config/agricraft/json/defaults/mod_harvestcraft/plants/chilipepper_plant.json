@@ -24,6 +24,26 @@
         "*"
       ],
       "useOreDict": false
+    },
+    {
+      "item": "rustic:chili_pepper_seeds",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": false,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": false
+    },
+    {
+      "item": "aoa3:chilli_seeds",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": false,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": false
     }
   ],
   "description": {

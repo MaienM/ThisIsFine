@@ -1,6 +1,6 @@
 {
   "path": "mod_rustic/plants/chili_pepper_plant.json",
-  "enabled": true,
+  "enabled": false,
   "id": "rustic:chili_pepper",
   "plant_name": "Chili Pepper",
   "seed_name": "Chili Pepper Seeds",
