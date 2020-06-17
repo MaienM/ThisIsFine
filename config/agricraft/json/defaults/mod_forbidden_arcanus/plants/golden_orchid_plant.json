@@ -1,0 +1,109 @@
+{
+  "path": "mod_forbidden_arcanus/plants/golden_orchid_plant.json",
+  "enabled": true,
+  "id": "forbidden_arcanus:golden_orchid_plant",
+  "plant_name": "Golden Orchid",
+  "seed_name": "Golden Orchid Seeds",
+  "seed_items": [
+    {
+      "item": "forbidden_arcanus:golden_orchid_seeds",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": false,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": false
+    }
+  ],
+  "description": {
+    "translations": {},
+    "default": "Golden Orchid."
+  },
+  "growth_chance": 0.75,
+  "growth_bonus": 0.025,
+  "bonemeal": true,
+  "tier": 1,
+  "weedable": false,
+  "aggressive": false,
+  "spread_chance": 0.1,
+  "spawn_chance": 0.0,
+  "grass_drop_chance": 0.0,
+  "seed_drop_chance": 1.0,
+  "seed_drop_bonus": 0.0,
+  "products": {
+    "products": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 0.5,
+        "required": true,
+        "item": "minecraft:gold_nugget",
+        "meta": 0,
+        "tags": "",
+        "ignoreMeta": false,
+        "ignoreTags": [],
+        "useOreDict": false
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 0.2,
+        "required": true,
+        "item": "minecraft:gold_ingot",
+        "meta": 0,
+        "tags": "",
+        "ignoreMeta": false,
+        "ignoreTags": [],
+        "useOreDict": false
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 0.1,
+        "required": true,
+        "item": "forbidden_arcanus:arcane_gold_nugget",
+        "meta": 0,
+        "tags": "",
+        "ignoreMeta": false,
+        "ignoreTags": [],
+        "useOreDict": false
+      }
+    ]
+  },
+  "requirement": {
+    "min_light": 10,
+    "max_light": 16,
+    "soils": [
+      "farmland_soil",
+      "farmland_planter_soil",
+      "fertile_planter_soil",
+      "fertile_farmland_soil",
+      "fertile_soil",
+      "fertilized_dirt_soil",
+      "fertilized_farmland_healthy_soil",
+      "fertilized_farmland_healthy_stable_soil",
+      "fertilized_farmland_rich_soil",
+      "fertilized_farmland_rich_stable_soil",
+      "fertilized_farmland_stable_soil",
+      "loamy_farmland_soil",
+      "sandy_farmland_soil",
+      "silty_farmland_soil",
+      "elemental_soil_soil",
+      "aqueous_soil_soil",
+      "caelic_soil_soil",
+      "magmatic_soil_soil",
+      "terran_soil_soil"
+    ],
+    "conditions": []
+  },
+  "texture": {
+    "render_type": "cross",
+    "seed_texture": "forbidden_arcanus:items/seeds_golden_orchid",
+    "plant_textures": [
+      "forbidden_arcanus:blocks/golden_orchid_stage_0",
+      "forbidden_arcanus:blocks/golden_orchid_stage_1",
+      "forbidden_arcanus:blocks/golden_orchid_stage_2"
+    ]
+  }
+}
