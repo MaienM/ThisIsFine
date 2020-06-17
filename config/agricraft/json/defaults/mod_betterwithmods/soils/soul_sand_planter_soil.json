@@ -1,0 +1,18 @@
+{
+  "path": "mod_betterwithmods/soils/soul_sand_planter_soil.json",
+  "enabled": true,
+  "id": "soul_sand_planter_soil",
+  "name": "Soul Sand Planter",
+  "varients": [
+    {
+      "item": "betterwithmods:planter",
+      "meta": 3,
+      "tags": "",
+      "ignoreMeta": false,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": false
+    }
+  ]
+}

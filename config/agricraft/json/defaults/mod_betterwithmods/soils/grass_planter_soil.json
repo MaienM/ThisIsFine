@@ -1,0 +1,18 @@
+{
+  "path": "mod_betterwithmods/soils/grass_planter_soil.json",
+  "enabled": true,
+  "id": "grass_planter_soil",
+  "name": "Grass Planter",
+  "varients": [
+    {
+      "item": "betterwithmods:planter",
+      "meta": 2,
+      "tags": "",
+      "ignoreMeta": false,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": false
+    }
+  ]
+}
