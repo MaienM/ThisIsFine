@@ -13,3 +13,5 @@
 
 config/ThermalTinkering/*.txt
 config/enderio/recipes/*.pdf
+
+scripts/_*
