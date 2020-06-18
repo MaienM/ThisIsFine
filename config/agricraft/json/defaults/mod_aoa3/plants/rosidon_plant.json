@@ -1,0 +1,90 @@
+{
+  "path": "mod_aoa3/plants/rosidon_plant.json",
+  "enabled": true,
+  "id": "aoa3:rosidon_plant",
+  "plant_name": "Rosidon",
+  "seed_name": "Rosidon Seeds",
+  "seed_items": [
+    {
+      "item": "aoa3:rosidon_seeds",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": false,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": false
+    }
+  ],
+  "description": {
+    "translations": {},
+    "default": "Rosidon Seeds."
+  },
+  "growth_chance": 1,
+  "growth_bonus": 0.025,
+  "bonemeal": true,
+  "tier": 1,
+  "weedable": false,
+  "aggressive": false,
+  "spread_chance": 0.1,
+  "spawn_chance": 0.0,
+  "grass_drop_chance": 0.0,
+  "seed_drop_chance": 1.0,
+  "seed_drop_bonus": 0.0,
+  "products": {
+    "products": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 1,
+        "required": true,
+        "item": "aoa3:rosidons",
+        "meta": 0,
+        "tags": "",
+        "ignoreMeta": false,
+        "ignoreTags": [],
+        "useOreDict": false
+      }
+    ]
+  },
+  "requirement": {
+    "min_light": 10,
+    "max_light": 16,
+    "soils": [
+      "farmland_soil",
+      "farmland_planter_soil",
+      "fertile_planter_soil",
+      "fertile_farmland_soil",
+      "fertile_soil",
+      "fertilized_dirt_soil",
+      "fertilized_farmland_healthy_soil",
+      "fertilized_farmland_healthy_stable_soil",
+      "fertilized_farmland_rich_soil",
+      "fertilized_farmland_rich_stable_soil",
+      "fertilized_farmland_stable_soil",
+      "loamy_farmland_soil",
+      "sandy_farmland_soil",
+      "silty_farmland_soil",
+      "elemental_soil_soil",
+      "aqueous_soil_soil",
+      "caelic_soil_soil",
+      "magmatic_soil_soil",
+      "terran_soil_soil"
+    ],
+    "conditions": []
+  },
+  "texture": {
+    "render_type": "hash",
+    "seed_texture": "aoa3:items/misc/seeds/rosidon_seeds",
+    "plant_textures": [
+      "aoa3:blocks/functional/crops/rosidon_crop_0",
+      "aoa3:blocks/functional/crops/rosidon_crop_1",
+      "aoa3:blocks/functional/crops/rosidon_crop_2",
+      "aoa3:blocks/functional/crops/rosidon_crop_3",
+      "aoa3:blocks/functional/crops/rosidon_crop_4",
+      "aoa3:blocks/functional/crops/rosidon_crop_5",
+      "aoa3:blocks/functional/crops/rosidon_crop_6",
+      "aoa3:blocks/functional/crops/rosidon_crop_7"
+    ]
+  }
+}
