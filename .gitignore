@@ -4,6 +4,8 @@
 
 !_scripts/*
 !config/**
+!helper-scripts/**
+!resources/**
 !scripts/**
 
 !.gitignore
@@ -11,7 +13,9 @@
 !*.md
 !mods.txt
 
+helper-scripts/*/output/
+
 config/ThermalTinkering/*.txt
 config/enderio/recipes/*.pdf
-
 scripts/_*
+**/.*

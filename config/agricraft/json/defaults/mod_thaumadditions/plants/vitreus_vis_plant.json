@@ -1,0 +1,85 @@
+{
+  "path": "mod_thaumadditions/vitreus_vis_plant.json",
+  "enabled": true,
+  "id": "thaumadditions:vitreus_vis_plant",
+  "plant_name": "Vitreus",
+  "seed_name": "Vitreus Seeds",
+  "seed_items": [
+    {
+      "item": "thaumadditions:vis_seeds",
+      "meta": 0,
+      "tags": "{ Aspect: \"vitreus\" }",
+      "ignoreMeta": false,
+      "ignoreTags": [],
+      "useOreDict": false
+    }
+  ],
+  "description": {
+    "translations": {},
+    "default": "Vitreus Seeds."
+  },
+  "growth_chance": 1.0,
+  "growth_bonus": 0.025,
+  "bonemeal": false,
+  "tier": 1,
+  "weedable": false,
+  "aggressive": false,
+  "spread_chance": 0.1,
+  "spawn_chance": 0.0,
+  "grass_drop_chance": 0.0,
+  "seed_drop_chance": 1.0,
+  "seed_drop_bonus": 0.0,
+  "products": {
+    "products": [
+      {
+        "min": 1,
+        "max": 3,
+        "chance": 1,
+        "required": true,
+        "item": "thaumadditions:vis_pod",
+        "meta": 0,
+        "tags": "{ Aspect: \"vitreus\" }",
+        "ignoremeta": false,
+        "ignoretags": [],
+        "useoredict": false
+      }
+    ]
+  },
+  "requirement": {
+    "min_light": 10,
+    "max_light": 16,
+    "soils": [
+      "farmland_soil",
+      "farmland_planter_soil",
+      "fertile_planter_soil",
+      "fertile_farmland_soil",
+      "fertile_soil",
+      "fertilized_dirt_soil",
+      "fertilized_farmland_healthy_soil",
+      "fertilized_farmland_healthy_stable_soil",
+      "fertilized_farmland_rich_soil",
+      "fertilized_farmland_rich_stable_soil",
+      "fertilized_farmland_stable_soil",
+      "loamy_farmland_soil",
+      "sandy_farmland_soil",
+      "silty_farmland_soil",
+      "elemental_soil_soil",
+      "aqueous_soil_soil",
+      "caelic_soil_soil",
+      "magmatic_soil_soil",
+      "terran_soil_soil"
+    ],
+    "conditions": []
+  },
+  "texture": {
+    "render_type": "hash",
+    "seed_texture": "thisisfine_thaumadditions:items/vitreus_vis_seeds",
+    "plant_textures": [
+      "thaumadditions:blocks/vis_crop/10",
+      "thaumadditions:blocks/vis_crop/20",
+      "thisisfine_thaumadditions:blocks/vitreus_vis_crop/3",
+      "thisisfine_thaumadditions:blocks/vitreus_vis_crop/4",
+      "thisisfine_thaumadditions:blocks/vitreus_vis_crop/5"
+    ]
+  }
+}

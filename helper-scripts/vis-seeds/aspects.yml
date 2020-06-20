@@ -1,0 +1,262 @@
+# Primary
+- name: aer
+  color: "#FFFF7E"
+  aspects: []
+- name: terra
+  color: "#56C000"
+  aspects: []
+- name: ignis
+  color: "#FF5A01"
+  aspects: []
+- name: aqua
+  color: "#3CD4FC"
+  aspects: []
+- name: ordo
+  color: "#D5D4EC"
+  aspects: []
+- name: perditio
+  color: "#404040"
+  aspects: []
+
+# Secondary
+- name: vacuos
+  color: "#888888"
+  aspects:
+  - aer
+  - perditio
+- name: lux
+  color: "#FFFFC0"
+  aspects:
+  - aer
+  - ignis
+- name: motus
+  color: "#CDCCF4"
+  aspects:
+  - aer
+  - ordo
+- name: gelum
+  color: "#E1FFFF"
+  aspects:
+  - ignis
+  - perditio
+- name: vitreus
+  color: "#80FFFF"
+  aspects:
+  - terra
+  - aer
+- name: metallum
+  color: "#B5B5CD"
+  aspects:
+  - terra
+  - ordo
+- name: victus
+  color: "#DE0005"
+  aspects:
+  - terra
+  - aqua
+- name: mortuus
+  color: "#6A0005"
+  aspects:
+  - aqua
+  - perditio
+- name: potentia
+  color: "#C0FFFF"
+  aspects:
+  - ordo
+  - ignis
+- name: permutatio
+  color: "#578357"
+  aspects:
+  - perditio
+  - ordo
+
+# Tertiary
+- name: praecantatio
+  color: "#CF00FF"
+  aspects:
+  - potentia
+  - aer
+- name: auram
+  color: "#FFC0FF"
+  aspects:
+  - praecantatio
+  - aer
+- name: alkimia
+  color: "#23AC9D"
+  aspects:
+  - praecantatio
+  - aqua
+- name: vitium
+  color: "#800080"
+  aspects:
+  - perditio
+  - praecantatio
+- name: tenebrae
+  color: "#222222"
+  aspects:
+  - vacuos
+  - lux
+- name: alienis
+  color: "#805080"
+  aspects:
+  - vacuos
+  - tenebrae
+- name: volatus
+  color: "#E7E7D7"
+  aspects:
+  - aer
+  - motus
+- name: herba
+  color: "#01AC00"
+  aspects:
+  - victus
+  - terra
+- name: instrumentum
+  color: "#4040EE"
+  aspects:
+  - metallum
+  - potentia
+- name: fabrico
+  color: "#809D80"
+  aspects:
+  - permutatio
+  - instrumentum
+- name: machina
+  color: "#8080A0"
+  aspects:
+  - motus
+  - instrumentum
+- name: vinculum
+  color: "#9A8080"
+  aspects:
+  - motus
+  - perditio
+- name: spiritus
+  color: "#EBEBFB"
+  aspects:
+  - victus
+  - mortuus
+- name: cognitio
+  color: "#F9967F"
+  aspects:
+  - ignis
+  - spiritus
+- name: sensus
+  color: "#C0FFC0"
+  aspects:
+  - aer
+  - spiritus
+- name: aversio
+  color: "#C05050"
+  aspects:
+  - spiritus
+  - perditio
+- name: praemunio
+  color: "#00C0C0"
+  aspects:
+  - spiritus
+  - terra
+- name: desiderium
+  color: "#E6BE44"
+  aspects:
+  - spiritus
+  - vacuos
+- name: exanimis
+  color: "#3A4000"
+  aspects:
+  - motus
+  - mortuus
+- name: bestia
+  color: "#9F6409"
+  aspects:
+  - motus
+  - victus
+- name: humanus
+  color: "#FFD7C0"
+  aspects:
+  - spiritus
+  - victus
+
+# Thaumic Additions: Reconstructed
+- name: fluctus
+  color: "#A8A8A8"
+  aspects:
+  - motus
+  - aqua
+- name: sonus
+  color: "#FFAA00"
+  aspects:
+  - fluctus
+  - aer
+- name: exitium
+  color: "#777777"
+  aspects:
+  - perditio
+  - instrumentum
+- name: caeles
+  # This one is special as it shifts between colors.
+  color: null
+  aspects:
+  - humanus
+  - desiderium
+- name: draco
+  color: "#00BCFF"
+  aspects:
+  - caeles
+  - victus
+- name: infernum
+  color: "#FF2314"
+  aspects:
+  - ignis
+  - mortuus
+- name: ventus
+  color: "#FCFCCF"
+  aspects:
+  - aer
+  - volatus
+- name: visum
+  color: "#45CF35"
+  aspects:
+  - sensus
+  - vitreus
+- name: imperium
+  color: "#D6A255"
+  aspects:
+  - cognitio
+  - machina
+
+# Bewitchment
+- name: sol
+  color: "#FFD300"
+  aspects:
+  - ignis
+  - lux
+- name: luna
+  color: "#808080"
+  aspects:
+  - terra
+  - tenebrae
+- name: stellae
+  color: "#73C2FB"
+  aspects:
+  - sol
+  - vacuos
+- name: diabolus
+  color: "#960018"
+  aspects:
+  - spiritus
+  - aversio
+
+# Ice & Fire
+- name: mythus
+  color: "#D9D5AB"
+  aspects:
+  - bestia
+  - praecantatio
+# This aspect exists in the code but doesn't appear in-game, probably because we already have an aspect with this name
+# from TA:R.
+# - name: draco
+#   color: "#A2271F"
+#   aspects:
+#   - mythus
+#   - desiderium

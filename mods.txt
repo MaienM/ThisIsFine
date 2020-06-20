@@ -138,6 +138,7 @@ mods/RandomThings-MC1.12.2-4.2.7.4.jar
 mods/RedstoneFlux-1.12-2.1.1.1-universal.jar
 mods/Reliquary-1.12.2-1.3.4.796.jar
 mods/Reskillable-1.12.2-1.13.0.jar
+mods/ResourceLoader-MC1.12.1-1.5.3.jar
 mods/RoguelikeDungeons-1.12.2-1.8.0.jar
 mods/Roots-1.12.2-3.0.28.jar
 mods/rsgauges-1.12.2-1.2.3.jar
