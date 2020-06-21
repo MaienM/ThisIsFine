@@ -1,0 +1,18 @@
+{
+  "path": "mod_betterwithmods/soils/fertile_farmland_soil.json",
+  "enabled": true,
+  "id": "fertile_farmland_soil",
+  "name": "Fertile Farmland",
+  "varients": [
+    {
+      "item": "betterwithmods:fertile_farmland",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": true,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": false
+    }
+  ]
+}
