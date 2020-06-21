@@ -1,5 +1,6 @@
 import crafttweaker.event.BlockFarmlandTrampleEvent;
 import crafttweaker.item.IIngredient;
+import mods.jei.JEI;
 
 // Prevent trampling farmland.
 events.onFarmlandTrample(function(event as BlockFarmlandTrampleEvent) {
@@ -45,3 +46,22 @@ recipes.replaceAllOccurences(<minecraft:stained_glass:15>, <ore:blockGlass>, <co
 
 // Allow converting forest troll leather into normal leather.
 recipes.addShapeless(<minecraft:leather> * 2, [<iceandfire:troll_leather_forest>]);
+
+// These items are marked as deprecated, might as well hide them in JEI.
+JEI.removeAndHide(<extracells:part.base:0>);
+JEI.removeAndHide(<extracells:part.base:1>);
+JEI.removeAndHide(<extracells:part.base:2>);
+JEI.removeAndHide(<extracells:part.base:3>);
+JEI.removeAndHide(<extracells:part.base:4>);
+JEI.removeAndHide(<extracells:part.base:5>);
+JEI.removeAndHide(<extracells:part.base:6>);
+JEI.removeAndHide(<extracells:part.base:9>);
+JEI.removeAndHide(<extracells:storage.fluid:0>);
+JEI.removeAndHide(<extracells:storage.fluid:1>);
+JEI.removeAndHide(<extracells:storage.fluid:2>);
+JEI.removeAndHide(<extracells:storage.fluid:3>);
+JEI.removeAndHide(<extracells:storage.component:4>);
+JEI.removeAndHide(<extracells:storage.component:5>);
+JEI.removeAndHide(<extracells:storage.component:6>);
+JEI.removeAndHide(<extracells:storage.component:7>);
+JEI.removeAndHide(<extracells:ecbaseblock:0>);
