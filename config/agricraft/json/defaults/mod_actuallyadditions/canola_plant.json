@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Hola, canola! According to something called the internet, the term \u0027canola\u0027 is a contraction of \u0027Canada\u0027 and \u0027ola\u0027, meaning oil"
+    "default": "Hola, canola! According to something called the internet, the term 'canola' is a contraction of 'Canada' and 'ola', meaning oil"
   },
   "growth_chance": 0.75,
   "growth_bonus": 0.025,
@@ -65,18 +65,10 @@
     "soils": [
       "farmland_soil",
       "farmland_planter_soil",
-      "fertile_planter_soil",
       "fertile_farmland_soil",
+      "fertile_planter_soil",
       "fertile_soil",
       "fertilized_dirt_soil",
-      "fertilized_farmland_healthy_soil",
-      "fertilized_farmland_healthy_stable_soil",
-      "fertilized_farmland_rich_soil",
-      "fertilized_farmland_rich_stable_soil",
-      "fertilized_farmland_stable_soil",
-      "loamy_farmland_soil",
-      "sandy_farmland_soil",
-      "silty_farmland_soil",
       "elemental_soil_soil",
       "aqueous_soil_soil",
       "caelic_soil_soil",

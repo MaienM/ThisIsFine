@@ -18,7 +18,7 @@
   ],
   "description": {
     "translations": {},
-    "default": "Sweet \u0026 Juicy."
+    "default": "Sweet & Juicy."
   },
   "growth_chance": 0.65,
   "growth_bonus": 0.025,
@@ -53,18 +53,10 @@
     "soils": [
       "farmland_soil",
       "farmland_planter_soil",
-      "fertile_planter_soil",
       "fertile_farmland_soil",
+      "fertile_planter_soil",
       "fertile_soil",
       "fertilized_dirt_soil",
-      "fertilized_farmland_healthy_soil",
-      "fertilized_farmland_healthy_stable_soil",
-      "fertilized_farmland_rich_soil",
-      "fertilized_farmland_rich_stable_soil",
-      "fertilized_farmland_stable_soil",
-      "loamy_farmland_soil",
-      "sandy_farmland_soil",
-      "silty_farmland_soil",
       "elemental_soil_soil",
       "aqueous_soil_soil",
       "caelic_soil_soil",
