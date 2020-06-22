@@ -110,6 +110,8 @@ removeInFavorOf(<actuallyadditions:item_coffee_seed>, <harvestcraft:coffeeseedit
 removeInFavorOf(<actuallyadditions:item_coffee_beans>, <harvestcraft:coffeebeanitem>);
 removeInFavorOf(<aoa3:tea_seeds>, <harvestcraft:teaseeditem>);
 removeInFavorOf(<aoa3:tea_shreddings>, <harvestcraft:teaitem>);
+removeInFavorOf(<bewitchment:elderberries>, <harvestcraft:elderberryitem>);
+removeInFavorOf(<bewitchment:juniper_berries>, <harvestcraft:juniperberryitem>);
 // AoA's tea sink doesn't use oredict, so just replace the recipes with recipes with a pot.
 JEI.removeAndHide(<aoa3:tea_sink>);
 removeInFavorOf(<aoa3:tea>, <harvestcraft:earlgreyteaitem>);

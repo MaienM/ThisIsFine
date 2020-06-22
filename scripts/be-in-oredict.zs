@@ -77,5 +77,7 @@
 ]);
 
 <ore:listAllfruit>.addItems([
+	<bewitchment:elderberries>,
+	<bewitchment:juniper_berries>,
 	<forbidden_arcanus:cherry_peach>,
 ]);
