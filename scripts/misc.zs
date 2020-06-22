@@ -1,6 +1,7 @@
 import crafttweaker.event.BlockFarmlandTrampleEvent;
 import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
+import mods.betterwithmods.Anvil;
 
 // Prevent trampling farmland.
 events.onFarmlandTrample(function(event as BlockFarmlandTrampleEvent) {
@@ -65,3 +66,16 @@ JEI.removeAndHide(<extracells:storage.component:5>);
 JEI.removeAndHide(<extracells:storage.component:6>);
 JEI.removeAndHide(<extracells:storage.component:7>);
 JEI.removeAndHide(<extracells:ecbaseblock:0>);
+
+// BetterWithMods soulforged steel has a weird block:ingot ratio of 1:16 instead of 1:9. This confuses some other mods
+// (such as the Thermal Expansion factorizer), leading to some exploits. Rather than trying to fix all other mods that
+// might assume 1 block = 9 ingots, fix the BWM recipes to use that ratio instead. (There are no recipes actually using
+// these blocks, so this doesn't affect the balance in any way.)
+Anvil.removeShaped(<betterwithmods:steel_block>);
+recipes.removeByRecipeName("betterwithmods:decompress/steel_block");
+recipes.addShaped(<betterwithmods:steel_block>, [
+	[<betterwithmods:material:14>, <betterwithmods:material:14>, <betterwithmods:material:14>],
+	[<betterwithmods:material:14>, <betterwithmods:material:14>, <betterwithmods:material:14>],
+	[<betterwithmods:material:14>, <betterwithmods:material:14>, <betterwithmods:material:14>],
+]);
+recipes.addShapeless(<betterwithmods:material:14> * 9, [<betterwithmods:steel_block>]);
